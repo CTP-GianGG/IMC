@@ -12,7 +12,7 @@ def calcularIMC():
     if imc < 18.5:
         lblEstado.config(text="Estado: Peso Bajo.")
     elif imc >= 18.5 and imc <= 24.9:
-        lblEstado.config(text="Estado: Peso Normal.")
+        lblEstado.config(text="Estado: Peso Normal .")
     elif imc >= 25 and imc <= 29.9:
         lblEstado.config(text="Estado: Sobrepeso.")
     elif imc >= 30 and imc <= 34.9:
